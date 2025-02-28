@@ -1,104 +1,95 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Electronic Voting System (VoteX) - README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        p, ul {
-            color: #555;
-        }
-        code {
-            background-color: #e0e0e0;
-            padding: 2px 5px;
-        }
-        pre {
-            background-color: #e0e0e0;
-            padding: 10px;
-            border-radius: 5px;
-            overflow-x: auto;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-    </style>
-</head>
-<body>
+# **Electronic Voting System (VoteX)**
 
-<div class="container">
-    <h1>Electronic Voting System (VoteX)</h1>
+## **Project Overview**
 
-    <h2>Project Overview</h2>
-    <p>The <strong>Electronic Voting System</strong> (VoteX) is a secure and user-friendly application that allows users to vote for candidates in various positions. It includes an admin mode for viewing results and managing the voting process. The system also ensures security by restricting certain keys and providing a lock screen feature.</p>
+The **Electronic Voting System** (VoteX) is a secure and user-friendly application that allows users to vote for candidates in various positions. It includes an admin mode for viewing results and managing the voting process. The system also ensures security by restricting certain keys and providing a lock screen feature.
 
-    <h2>Features</h2>
-    <ul>
-        <li><strong>Voting System:</strong> Allows voters to choose candidates for multiple positions such as President, Vice President, Treasurer, and others.</li>
-        <li><strong>Admin Mode:</strong> Admins can access results and manage votes by entering a secure password.</li>
-        <li><strong>Security:</strong> Includes key restrictions to prevent unauthorized actions like closing or minimizing the application (e.g., Alt+F4, Win, Ctrl+Esc).</li>
-        <li><strong>Lock Screen:</strong> Admins can lock the screen to prevent any interference during the voting process.</li>
-        <li><strong>CSV Storage:</strong> All votes are saved in a CSV file for easy retrieval and management.</li>
-        <li><strong>Anonymous Voting:</strong> Voters are assigned an anonymous ID to ensure privacy.</li>
-    </ul>
+## **Features**
 
-    <h2>Requirements</h2>
-    <ul>
-        <li>Python 3.x</li>
-        <li><code>tkinter</code> (for the GUI)</li>
-        <li><code>keyboard</code> (to block and unblock keys)</li>
-        <li><code>ctypes</code> (for locking the screen)</li>
-        <li><code>csv</code> (for saving votes)</li>
-    </ul>
+- **Voting System**: Allows voters to choose candidates for multiple positions such as President, Vice President, Treasurer, and others.
+- **Admin Mode**: Admins can access results and manage votes by entering a secure password.
+- **Security**: Includes key restrictions to prevent unauthorized actions like closing or minimizing the application (e.g., `Alt+F4`, `Win`, `Ctrl+Esc`).
+- **Lock Screen**: Admins can lock the screen to prevent any interference during the voting process.
+- **CSV Storage**: All votes are saved in a CSV file for easy retrieval and management.
+- **Anonymous Voting**: Voters are assigned an anonymous ID to ensure privacy.
+- **Audit Trails**: Tracks all activities within the system for enhanced transparency and security.
 
-    <h2>Setup Instructions</h2>
-    <ol>
-        <li><strong>Clone the Repository:</strong>
-            <pre><code>git clone https://github.com/your-username/votex.git
-cd votex</code></pre>
-        </li>
-        <li><strong>Install Dependencies:</strong>
-            <pre><code>pip install tkinter keyboard</code></pre>
-        </li>
-        <li><strong>Run the Application:</strong>
-            <pre><code>python voting_app.py</code></pre>
-        </li>
-        <li><strong>CSV Data:</strong> All votes are stored in the <code>voting_data.csv</code> file. This file is created automatically when the first vote is submitted.</li>
-    </ol>
+## **Requirements**
 
-    <h2>Usage</h2>
-    <ul>
-        <li><strong>Voting:</strong> Voters need to enter their name, roll number, and select the duration before voting for candidates in different positions.</li>
-        <li><strong>Admin Mode:</strong> Enter the admin password (<code>admin123</code>) to view results and manage the voting system. Admin can unlock restricted keys and exit fullscreen mode.</li>
-        <li><strong>Lock Screen:</strong> Admins can lock the screen at any point using the "Lock Screen" button to secure the application.</li>
-    </ul>
+- Python 3.x
+- `tkinter` (for the GUI)
+- `keyboard` (to block and unblock keys)
+- `ctypes` (for locking the screen)
+- `csv` (for saving votes)
 
-    <h2>Security</h2>
-    <ul>
-        <li><strong>Admin Authentication:</strong> Only authorized admins can view voting results and modify key restrictions using a password.</li>
-        <li><strong>Key Restrictions:</strong> Critical system keys like <code>Alt+F4</code> and <code>Ctrl+Esc</code> are disabled during voting to prevent interference.</li>
-    </ul>
+## **Setup Instructions**
 
-    <h2>License</h2>
-    <p>This project is licensed under the <strong>MIT License</strong>.</p>
+1. **Clone the Repository**:
+     git clone https://github.com/your-username/votex.git
+     cd votex
 
-    <h2>Contributors</h2>
-    <p><strong>Yash Nigam</strong>: Developer (Department of Electronics, Sri Venkateswara College, DU)</p>
-</div>
+2. **Install Dependencies**:
+- Ensure you have Python 3 installed.
+- Install the necessary Python packages:
+  ```
+  pip install tkinter keyboard
+  ```
 
-</body>
-</html>
+3. **Run the Application**:
+- Simply run the Python file:
+  ```
+  python voting_app.py
+  ```
+
+4. **CSV Data**:
+- All votes are stored in the `voting_data.csv` file. This file is created automatically when the first vote is submitted.
+
+## **Usage**
+
+- **Voting**: Voters need to enter their name, roll number, and select the duration before voting for candidates in different positions.
+- **Admin Mode**: Enter the admin password (`admin123`) to view results and manage the voting system. Admin can unlock restricted keys and exit fullscreen mode.
+- **Lock Screen**: Admins can lock the screen at any point using the "Lock Screen" button to secure the application.
+
+## **Security**
+
+- **Admin Authentication**: Only authorized admins can view voting results and modify key restrictions using a password.
+- **Key Restrictions**: Critical system keys like `Alt+F4` and `Ctrl+Esc` are disabled during voting to prevent interference.
+- **Encryption and Authentication**: Future plans include implementing cryptographic techniques to authenticate software and ensure data integrity.
+- **Tamper-Evident Measures**: Plans to incorporate tamper-evident mechanisms to enhance system integrity.
+
+## **Comparison with Other Voting Systems**
+
+- **Offline vs. Online Voting**: VoteX is an offline system, which provides certain security advantages over online systems, such as reduced risk of network attacks. However, online systems offer greater convenience and accessibility.
+
+## **Future Development Plans**
+
+- **Enhanced Security Protocols**: Plans to implement two-factor authentication and biometric verification for enhanced security.
+- **Audit Trails**: Already implemented to track system activities.
+
+## **Troubleshooting Tips**
+
+- **Common Issues**: If the application fails to start, ensure that all dependencies are installed correctly.
+- **CSV File Issues**: If the CSV file is not created, check the file path and permissions.
+
+## **License**
+
+This project is licensed under the MIT License.
+
+## **Contributors**
+
+- **Yash Nigam**: Developer (Department of Electronics, Sri Venkateswara College, DU)
+
+## **Additional Resources**
+
+For more detailed documentation and troubleshooting tips, please visit our [Wiki](https://your-wiki-link.com).
+
+---
+
+### Key Improvements:
+- **Security Enhancements**: Added discussion on tamper-evident measures and cryptographic authentication.
+- **Audit Trails**: Highlighted the implementation of audit trails for transparency.
+- **Comparison with Other Voting Systems**: Included a brief comparison of offline and online voting systems.
+- **Future Development Plans**: Outlined plans for enhanced security protocols.
+- **Troubleshooting Tips**: Added a section for common issues and solutions.
+- **Additional Resources**: Linked to a wiki for more detailed information.
+
