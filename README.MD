@@ -91,7 +91,7 @@ The **Electronic Voting System (VoteX)** is a secure and user-friendly applicati
 
 ## **Screenshots**  
 
-![VoteX Screenshot](https://github.com/your-username/votex/blob/main/VoteX.png)  
+![VoteX Screenshot](https://github.com/yashnigam07/VoteX/blob/main/VoteX.png)  
 
 *(Replace the URL with the actual path of the uploaded image in your GitHub repository.)*  
 
@@ -111,12 +111,3 @@ This project is licensed under **yashnigam.co.in**.
 ✨ **Future Development Roadmap** – Highlighted planned security features.  
 ✨ **Troubleshooting Section** – Provides solutions to common issues.  
 ✨ **Enhanced Readability** – Improved structure for better user experience.  
-
----
-
-### ✅ Fixes & Enhancements  
-✔ **Proper Screenshot Embedding** – Fixed image path issue.  
-✔ **Clarified Dependencies** – Removed unnecessary installation steps.  
-✔ **Refined Formatting** – Improved readability and organization.  
-
-Would you like me to add anything else, such as badges or links to external documentation? 🚀
