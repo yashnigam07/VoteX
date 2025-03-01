@@ -72,17 +72,16 @@ The **Electronic Voting System** (VoteX) is a secure and user-friendly applicati
 - **CSV File Issues**: If the CSV file is not created, check the file path and permissions.
 
 ## **License**
-
 This project is licensed under the yashnigam.co.in
+
 
 ## **Contributors**
 
 - **Yash Nigam**: Developer (Department of Electronics, Sri Venkateswara College, DU)
 
 ## **Additional Resources**
-- **Documentation**: [VoteX Documentation](https://github.com/yashnigam/Vot)
 
----
+- **Documentation**: [VoteX Documentation](https://github.com/yashnigam/Vot)
 
 ### Key Improvements:
 - **Security Enhancements**: Added discussion on tamper-evident measures and cryptographic authentication.
