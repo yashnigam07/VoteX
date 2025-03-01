@@ -73,15 +73,14 @@ The **Electronic Voting System** (VoteX) is a secure and user-friendly applicati
 
 ## **License**
 
-This project is licensed under the MIT License.
+This project is licensed under the yashnigam.co.in
 
 ## **Contributors**
 
 - **Yash Nigam**: Developer (Department of Electronics, Sri Venkateswara College, DU)
 
 ## **Additional Resources**
-
-For more detailed documentation and troubleshooting tips, please visit our [Wiki](https://your-wiki-link.com).
+- **Documentation**: [VoteX Documentation](https://github.com/yashnigam/Vot)
 
 ---
 
