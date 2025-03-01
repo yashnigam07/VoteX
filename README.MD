@@ -1,7 +1,3 @@
-Here's your improved and well-structured README file:  
-
----
-
 # **Electronic Voting System (VoteX)**  
 
 ## **Project Overview**  
@@ -92,8 +88,7 @@ The **Electronic Voting System (VoteX)** is a secure and user-friendly applicati
 ## **Screenshots**  
 
 ![VoteX Screenshot](https://github.com/yashnigam07/VoteX/blob/main/VoteX.png)  
-
-*(Replace the URL with the actual path of the uploaded image in your GitHub repository.)*  
+ 
 
 ## **License**  
 
