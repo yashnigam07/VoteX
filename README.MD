@@ -86,8 +86,7 @@ The **Electronic Voting System (VoteX)** is a secure and user-friendly applicati
 | Restricted keys not working | Verify that `keyboard` module is installed properly. |
 
 ## **Screenshots**
-
-(Add screenshots here to demonstrate key features and user interface)
+![alt]("C:\Users\hp\OneDrive\Desktop\VoteX.png")
 
 ## **License**
 
